@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Fredericka the Great', cursive;
+    background-color: orange;
+}
+
+body > header {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: dodgerblue;
+}
+
+body > header > h1 {
+    padding-left: 16px;
+    color: white;
+}
+
+body > header > nav > ul {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+body > header > nav > ul > li > a {
+    padding-right: 8px;
+    color: white;
+}
+
+body > main {
+    margin: auto;
+    width: 60%;
+}
+
+.latest {
+    float: right;
+    position: absolute; top:120px; right: 650px;
+}
+
+
+footer {
+    padding: 32px;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 150px;
+    clear: both;
+  }
+  
+.container input {
+    width: 100%;
+    clear: both;
+  }
+
+.button {
+    width: 75px;
+    clear: both;
+  }
